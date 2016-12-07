@@ -1,0 +1,156 @@
+@charset "utf-8";
+/*--Reset--*/
+
+
+html {
+    font-family: "Microsoft YaHei", SimHei, Helvetica,sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    font-size:16px;
+    -webkit-user-select: none;/*禁用手机浏览器的用户选择功能 */
+    -moz-user-select: none;
+}
+html{-webkit-tap-highlight-color:transparent;}
+html, body, div, table, tr, td, ul, li, h1, h2, h3, h4, h5, h6, p, dl, dt, dd, form, input, img, span, a, b, i, em {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+body, div, table, tr, td, ul, li, h1, h2, h3, h4, h5, h6, p, dl, dt, dd,canvas,section,input {
+    box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+i,b{
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-size:16px;
+    color: #555;
+    font-style: normal;
+    line-height:24px;
+    text-align: left;
+    text-decoration: none;
+    background: #fff;
+}
+.t{
+    color:#333;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+ul, li {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+img {
+    vertical-align: text-bottom;
+}
+
+input {
+    vertical-align: bottom;
+    outline: none;
+}
+
+a {
+    color: #444;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:hover, a:active {
+    outline: none;
+}
+
+button {
+    margin: 0;
+    font: inherit;
+    color: inherit;
+    overflow: visible;
+    text-transform: none;
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+/*--Basic Class--*/
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.tc {
+    text-align: center;
+}
+
+.oh{
+    overflow: hidden;
+}
+.substr{
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+}
+.clear:before {
+    display: table;
+    content: " ";
+    clear: both;
+}
+.clear:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+.pr {
+    position: relative;
+}
+
+.pa {
+    position: absolute;
+}
+
+.db {
+    display: block;
+}
+.dib{
+    display: inline-block;
+}
+
+::-webkit-scrollbar{width:0;}
+::-webkit-scrollbar-track{background:rgba(0,0,0,0);}
+/*以上是全局样式*/
+
+
+
+.wrap{
+    width:100%;
+    height:12.5rem;
+    overflow:scroll;
+}
+.inner{
+    width:400%;
+    height:12.5rem;
+    left:0;
+    top:0;
+}
+.inner li{
+    width:25%;
+    height:12.5rem;
+}
+.inner li img{
+    width:100%;
+}
